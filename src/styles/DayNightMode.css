@@ -1,8 +1,9 @@
 .body-day-mode {
-    background-color: rgb(169, 146, 146);
+    background-color: rgb(254, 252, 236);
+    -webkit-text-fill-color: black;
   }
   
   .body-night-mode {
-    background-color: rgb(56, 85, 172);
+    background-color: rgb(56, 71, 99);
   }
   
