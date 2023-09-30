@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FiSun, FiMoon } from 'react-icons/fi';
 import DayContent from './Day';
 import NightContent from './Night';

@@ -5,9 +5,14 @@ type ThemeContextProps = {
   toggleDayNight: () => void;
 };
 
+
+type ThemeProviderProps = {
+  children: React.ReactNode;
+};
+
 const ThemeContext = createContext<ThemeContextProps | undefined>(undefined);
 
-export const ThemeProvider: React.FC = ({ children }) => {
+export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
   const [isDay, setIsDay] = useState(true);
 
   useEffect(() => {
