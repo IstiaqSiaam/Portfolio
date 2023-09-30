@@ -26,7 +26,7 @@ const HomePage: React.FC = () => {
       
       {isDay ? <DayContent /> : <NightContent />}
       <footer style={{ textAlign: 'center', padding: '5em'}}>
-      This site is under development. Come back by November to see a mature and awesome portfolio!
+      This site is under development. Come back by November to see an awesome portfolio!
     </footer>
     </div>
 
